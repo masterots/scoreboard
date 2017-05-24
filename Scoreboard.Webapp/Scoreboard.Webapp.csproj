@@ -11,7 +11,15 @@
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
+    <PackageReference Include="GraphQL" Version="0.15.1.678" />
   </ItemGroup>
 
 
+  <ItemGroup>
+    <Folder Include="GraphQL\" />
+    <Folder Include="GraphQL\Schemas\" />
+    <Folder Include="GraphQL\Types\" />
+    <Folder Include="GraphQL\Data\" />
+    <Folder Include="GraphQL\Queries\" />
+  </ItemGroup>
 </Project>
